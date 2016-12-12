@@ -1,0 +1,162 @@
+Script started on Mon 01 Aug 2016 11:48:46 PM EDT
+[?1034hbash-4.1$ java DepartmentStore
+Connecting   to Oracle...
+Connected!
+
+
+	~~~~~~~~SUMMARY REPORS MENU~~~~~~~~
+Please chose one of the options by entering the number that corresponds to your choice:
+1 - Customer Report
+2 - Supplier Report
+3 - QUIT
+1
+
+
+-------------------------------CUSTOMER SUMMARY----------------------------------------------
+'	Customer Activity for the Quarter April 1 - June 30, 2016	
+
+Customer Number: 603	Name: Bobby	Address: 6533 Hummer rd.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160511	3301	Hand Soap		3	2	17	51	34	85	347464435442009
+
+160511	3302	Picture Frame		15	5	13	195	65	260	347464435442009
+
+160511	3600	Hammer		20	5	2	40	10	50	347464435442009
+
+# of Customer Purchases: 3	Overall Charge: 395	Average Charge:1.31666666666666666666666666666666666667E02
+
+Customer Number: 606	Name: Beatrice	Address: 7832 Euclid blvd.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160511	3401	PS4		250	10	8	2000	80	2080	4556756356962123
+
+# of Customer Purchases: 1	Overall Charge: 2080	Average Charge:2080
+
+Customer Number: 609	Name: Carlos	Address: 1232 Annandale Rd.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160603	3201	Socks		5	5	2	10	10	20	4716027476244926
+
+# of Customer Purchases: 1	Overall Charge: 20	Average Charge:20
+
+Customer Number: 612	Name: Flora	Address: 7832 Industrial Dr.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160523	3201	Socks		5	5	2	10	10	20	6011881371585743
+
+# of Customer Purchases: 1	Overall Charge: 20	Average Charge:20
+
+Customer Number: 614	Name: Edward	Address: 8111 Belvedere st.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160621	3600	Hammer		20	5	4	80	20	100	4485758855885231
+
+160621	3800	Watch		50	10	4	200	40	240	4485758855885231
+
+# of Customer Purchases: 2	Overall Charge: 340	Average Charge:170
+
+Customer Number: 615	Name: Maite	Address: 9211 Mason ave.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160407	3102	Oranges		2	5	8	16	40	56	5104212628067378
+
+160407	3103	Carrots		1	2	5	5	10	15	5104212628067378
+
+160407	3104	Potatoes		5	5	12	60	60	120	5104212628067378
+
+# of Customer Purchases: 3	Overall Charge: 191	Average Charge:6.36666666666666666666666666666666666667E01
+
+Customer Number: 617	Name: John	Address: 2323 Jhordan st.
+
+Date	Item#	Desc		Price	Ship	Qty	T Price	T Ship	Total	Card#
+------	----	-------		----	------	-----	-----	-----	----	-----
+160402	3600	Hammer		20	5	1	20	5	25	343524285384942
+
+# of Customer Purchases: 1	Overall Charge: 25	Average Charge:25
+
+# of Quarter Purchases: 12	Overall sum of Charges: 3071	Average Charge: 255
+
+--------------NOTE--------------
+Following Customers have bought Items but did not make a purchase during this quarter period
+Customer Number: 601	Name: James
+Customer Number: 604	Name: Carl
+Customer Number: 611	Name: Carla
+Customer Number: 619	Name: Adriana
+
+
+	~~~~~~~~SUMMARY REPORS MENU~~~~~~~~
+Please chose one of the options by entering the number that corresponds to your choice:
+1 - Customer Report
+2 - Supplier Report
+3 - QUIT
+2
+
+
+-------------------------------SUPPLIER SUMMARY----------------------------------------------
+
+	Supplier Activity for the Quarter April 1 - June 30, 2016	
+
+Supplier Number: 400	Name: Amazon	Location Atlanta
+
+Transition Number	Date	Item Number	Description	Quantity	Total Cost
+-----------------	----	-----------	-----------	--------	----------
+7015			150610	3201		Socks		26		182
+
+Supplier Procurements: 2	Overall Charge: 950	Average Charge:475
+
+Supplier Number: 404	Name: Fresh Foods	Location Washington DC
+
+Transition Number	Date	Item Number	Description	Quantity	Total Cost
+-----------------	----	-----------	-----------	--------	----------
+7008			150420	3104		Potatoes		25		50
+
+Supplier Procurements: 2	Overall Charge: 950	Average Charge:475
+
+Supplier Number: 409	Name: Home Depot	Location Pittsburg
+
+Transition Number	Date	Item Number	Description	Quantity	Total Cost
+-----------------	----	-----------	-----------	--------	----------
+7004			150510	3800		Watch		30		750
+
+7012			150402	3600		Hammer		20		200
+
+Supplier Procurements: 2	Overall Charge: 950	Average Charge:475
+
+Supplier Number: 410	Name: Urban Fashion	Location Miami
+
+Transition Number	Date	Item Number	Description	Quantity	Total Cost
+-----------------	----	-----------	-----------	--------	----------
+7010			150523	3200		Plain White T-shirts		50		250
+
+7011			150523	3202		blue jeans		25		500
+
+Supplier Procurements: 2	Overall Charge: 950	Average Charge:475
+
+Quarter Procurements: 8	Overall sum of Charges: 3800	Average Charge: 475
+
+--------------NOTE--------------
+Following Suppliers have procured Items but have not procured during quarter period
+Supplier Number: 402	Name: Ebay
+Supplier Number: 406	Name: Microsoft
+Supplier Number: 407	Name: Apple
+Supplier Number: 408	Name: Fine Jewelers
+
+
+	~~~~~~~~SUMMARY REPORS MENU~~~~~~~~
+Please chose one of the options by entering the number that corresponds to your choice:
+1 - Customer Report
+2 - Supplier Report
+3 - QUIT
+3
+Thank You for using the software. Goodbye!
+bash-4.1$ exit
+exit
+
+Script done on Mon 01 Aug 2016 11:49:14 PM EDT
