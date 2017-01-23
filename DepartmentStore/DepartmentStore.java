@@ -23,8 +23,8 @@ public static void main (String args[])  //The main function
 
        System.out.println("Connecting   to Oracle...");  
 
-       String url = "jdbc:oracle:thin:@apollo.ite.gmu.edu:1521:ite10g";
-       Connection conn = DriverManager.getConnection(url,"rsejasja","oackyc");
+       String url = "........."; //replace with url to oracle server
+       Connection conn = DriverManager.getConnection(url,"....","...."); //replace strings with proper credentials
 
        System.out.println("Connected!");
        
